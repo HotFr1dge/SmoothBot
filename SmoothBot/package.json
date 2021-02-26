@@ -1,0 +1,21 @@
+{
+  "name": "smoothy-bot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HotFr1dge",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "canvas": "^2.6.1",
+    "canvas-constructor": "^4.1.0",
+    "discord.js": "^12.4.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.12.0",
+    "sqlite3": "^5.0.0",
+    "superagent": "^6.1.0"
+  }
+}
