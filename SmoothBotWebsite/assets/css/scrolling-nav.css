@@ -1,0 +1,93 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template/scrolling-nav)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600&display=swap');
+ @import './hamburger-menu.css';
+
+body {
+  font-family: 'Asap', sans-serif;
+}
+
+*::selection {
+  color: white;
+  background-color: #d5a307;
+}
+
+img, nav, header, footer {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+header {
+  background: rgb(255,0,0);
+  background: linear-gradient(128deg, #ff0000 0%, #d5a307 100%);
+  position: relative;
+}
+
+.logo-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .logo-mobile {
+    display: block;
+    margin: 0px!important;
+  }
+  .logo-desktop img {
+    display: none;
+  }
+}
+
+header .container {
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+
+.logo img {
+  min-width: 128px;
+  min-height: 128px;
+  width: 20vh;
+  height: 20vh;
+}
+
+
+header svg {
+  position: absolute;
+  bottom: 0;
+}
+
+section {
+  padding: 150px 0;
+}
+
+.count {
+  font-size: 4em;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.btn-basic {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 3px;
+  background-color: black;
+  border-radius: 50rem;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  transition: transform 0.3s;
+}
+
+.btn-basic:hover {
+  background-color: #111;
+  text-decoration: none;
+  color: white;
+  transform: translate(0px, -3px);
+}
