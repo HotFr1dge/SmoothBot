@@ -6,6 +6,6 @@ SmoothBot to projekt bota Discord, który nigdy nie został ukończony. **Kod wy
 
 ### Instalacja
  1. Pobierz repozytorium
- 2. Zainstaluj wymagane pakiety komendą `npm i`
+ 2. Zainstaluj wymagane pakiety poleceniem `npm i`
  3. Umieść swój token i klucz API z [OpenWeatherMap](https://openweathermap.org/api) w pliku `.env`
- 4. Uruchom projekt
+ 4. Uruchom projekt poleceniem `node .`
